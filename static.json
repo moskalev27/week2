@@ -4,7 +4,7 @@
       "X-Author": "moskalev27",
       "Access-Control-Allow-Origin": "*"
     },
-    "/login/index.html": {
+    "/login/": {
       "Content-Type": "text/plain; charset=UTF-8"
     }
   }
