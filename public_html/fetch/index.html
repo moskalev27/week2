@@ -14,7 +14,7 @@
       await fetch(url);
       
     });   
-    let text = await response.text();
+    let text = response.text();
       document.getElementById('inp').innerHTML=text;
       console.log(text);
   </script>
