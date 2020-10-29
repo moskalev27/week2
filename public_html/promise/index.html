@@ -1,3 +1,4 @@
 function task(x){ 
-  return promise((res, rej) => age<18 ? res('yes'):rej('no')); 
-}
+  let promis = new Promise((res, rej) => age<18 ? res('yes') : rej('no')); 
+  return promis;
+};
