@@ -12,10 +12,11 @@
     let response = bt.addEventListener('click', async function doButtonClick(){
       let url = document.getElementById('inp').value;
       await fetch(url);
-      let text = await response.text();
+      
+    });   
+    let text = await response.text();
       document.getElementById('inp').innerHTML=text;
       console.log(text);
-    });   
   </script>
 </body>
 </html>
